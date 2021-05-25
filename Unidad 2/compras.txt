@@ -2,3 +2,5 @@ Manzanas
 bananas
 frutillas
 Mandarinas
+Pan 
+Masas
