@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+
     <style>
         img {
             width: 30%;
@@ -15,25 +18,32 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <u>
-                <li>HOME</li>
-                <li>ABOUT US</li>
-                <li>CONTACT</li>
-            </u>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li>
+                    <a href="Curriculum.html" target="_blank"> HOME</a></li>
+                <li>
+                    <a href="About-us.html" target="_blank">ABOUT US</a></li>
+                <li>
+                    <a href="Contact.html" target="_blank">CONTACT</a> </li>
+            </ul>
         </nav>
-        <hr>
-        <h1>Currículum Vitae de Saul GOODMAN</h1>
+
+        <h1 class="dr-name dr-name-large"> SAUL GOODMAN</h1>
     </header>
 
 
-    <section>
-        <img src="Img/better-call-saul logo.jpg" alt="Saul Goodman">
+    <section class="content-section container">
 
-        <h2>Abogado - Especialista</h2>
+        <h2 class="section-header">Abogado - Especialista</h2>
+        <img class="dr-img" src="Img/better-call-saul logo.jpg" alt="Saul Goodman">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit aliquid dolor repellat, magnam enim rem, corrupti consequatur repudiandae, quasi ut nihil! Neque fugiat eaque aperiam perspiciatis dolores! Cumque, ex!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates soluta incidunt veniam tempora rem exercitationem nesciunt hic. Ratione eveniet deserunt, veritatis ullam autem iste voluptatibus. Quisquam quae maiores eos odit!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum blanditiis consequuntur sit modi consequatur eveniet doloribus rerum enim vel. Voluptates, quidem iste. Non quas hic, autem aspernatur consequatur consequuntur quibusdam.</p>
 
         <h3>Estudios Universitarios</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis officiis non pariatur iste facere quod placeat hic temporibus error culpa officia nihil voluptate dolores, dignissimos vel dolorum laudantium corporis molestias.</p>
 
         <ul>
             <li>Recibido de la UNALBU con el título de "Abogado".</li>
@@ -58,45 +68,40 @@
 
 
         <h3>Nos conocemos? Claro que si</h3>
-        <iframe width="360" height="240" src="https://www.youtube.com/embed/wqnHtGgVAUE " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+        <iframe class="dr-video" width="360" height="240" src="https://www.youtube.com/embed/wqnHtGgVAUE " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic porro sunt, aliquid quaerat velit, ab molestias totam unde eum, esse iste voluptate! Fugit earum maxime, exercitationem et vel a nobis.</p>
+
 
         <!-- Por si quiere escuchar el audio: <audio src="/music/y2mate.com - Better Call Saul Theme by Little Barrie Full Orignal Song_480p.mp4" controls autoplay muted></audio> -->
 
     </section>
-    <h3>Contacto</h3>
-    <form action="">
-        <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre">
+
+
+    <footer class="main-footer">
+        <div class="main-footer-container">
+            <h3 class="dr-name1">Saul Goodman</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+
+                </li>
+
+            </ul>
+
+
+
+
+
+
         </div>
-
-        <div>
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono">
-        </div>
-
-        <div>
-            <label for="">Email</label>
-            <input type="email">
-        </div>
-        <div>
-            <label for="name">Pregunta</label>
-            <textarea name="name" id="" cols="30" rows="10"></textarea>
-            <button>Enviar</button>
-            <p></p>
-        </div>
-
-    </form>
-
-    <footer>
-        <hr>
-        <nav>
-            <p><strong>Remember:</strong> It's all Good Man</p>
-            <img src="/Img/Sin título.png" alt="logo face">
-
-        </nav>
-
-
     </footer>
 
 </body>
