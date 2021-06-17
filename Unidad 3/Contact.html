@@ -5,34 +5,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
 
 <body>
-    <h1>Contacto</h1>
-    <form action="">
-        <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre">
-        </div>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li>
+                    <a href="Curriculum.html" target="_blank"> HOME</a></li>
+                <li>
+                    <a href="About-us.html" target="_blank">ABOUT US</a></li>
+                <li>
+                    <a href="Contact.html" target="_blank">CONTACT</a> </li>
+            </ul>
+        </nav>
 
-        <div>
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono">
-        </div>
+        <h1 class="dr-name"> SAUL GOODMAN</h1>
+    </header>
+    <div class="main-contact">
+        <h1>Contacto</h1>
+        <form action="">
+            <div class="form-name">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+            </div>
 
-        <div>
-            <label for="">Email</label>
-            <input type="email">
-        </div>
-        <div>
-            <label for="name">Pregunta</label>
-            <textarea name="name" id="" cols="30" rows="10"></textarea>
-            <button>Enviar</button>
-            <p></p>
-        </div>
+            <div class="form-tel">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono">
+            </div>
 
-    </form>
+            <div class="form-email">
+                <label for="">Email  </label>
+                <input class="inmail" type="email">
+            </div>
+            <div class="form-question">
+                <label for="name">Pregunta</label>
+                <textarea name="name" id="" cols="25" rows="10"></textarea>
+                <p></p>
+            </div>
+
+            <div>
+                <button class="buttom">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+
+
+    <footer class="main-footer">
+        <div class="main-footer-container">
+            <h3 class="dr-name1">Saul Goodman</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+
+                </li>
+
+            </ul>
+
+
+
+
+
+
+        </div>
+    </footer>
+
 </body>
 
 </html>

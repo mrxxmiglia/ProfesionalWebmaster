@@ -10,12 +10,14 @@
 
 html,
 body {
+    background-color: rgb(255, 242, 219);
     margin: 0;
     padding: 0;
     font-family: 'Stint Ultra Condensed', cursive;
+    background-color: rgb();
 }
 
-nav ul {
+.nav ul {
     margin: 0;
 }
 
@@ -28,7 +30,7 @@ nav ul {
 
 .nav a {
     display: inline-block;
-    padding-bottom: .5em;
+    padding-bottom: .1em;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -39,7 +41,7 @@ nav ul {
 
 .main-nav {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: lighter;
     border-bottom: 1px solid rgba(0, 0, 0, 0.6);
 }
@@ -48,12 +50,8 @@ nav ul {
     text-align: center;
     margin: 0;
     font-weight: normal;
-    font-size: 4em;
-    color: rgb(245, 79, 79);
-}
-
-.dr-name-large {
     font-size: 8em;
+    color: rgb(245, 79, 79);
 }
 
 .content-section {
@@ -111,14 +109,138 @@ ol {
 
 .dr-name1 {
     font-size: 1.5em;
-    f
 }
 
 .main-footer-container {
     display: flex;
+    flex-grow: 1;
+    text-align: center;
 }
 
-.main-footer-container {
-    flex-grow: 1;
-    text-align: end;
+.main-contact {
+    text-align: center;
+    text-decoration: none;
 }
+
+.form-name {
+    font-size: 1.5em;
+    margin: 3px;
+    padding: 3px;
+    /* width: auto; */
+}
+
+.form-tel {
+    font-size: 1.5em;
+    margin: 3px;
+    padding: 3px;
+}
+
+.form-email {
+    font-size: 1.5em;
+    margin: 3px;
+    padding: 3px;
+}
+
+.form-question {
+    font-size: 1.5em;
+    margin: 3px;
+    padding: 3px;
+}
+
+.buttom {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.15em;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: rgb(223, 133, 59);
+    padding: 2px;
+    margin-top: 3px;
+    margin-bottom: 50px;
+}
+
+.buttom:hover {
+    background-color: rgb(199, 158, 124);
+}
+
+.inmail {
+    width: 180px;
+}
+
+textarea {
+    width: 170px;
+}
+
+#callme {
+    width: 400px;
+    height: 150px;
+    margin: 15px;
+    transition: 0.5s all;
+    padding-bottom: 10px;
+}
+
+#callme:hover {
+    width: 600px;
+    height: 300px;
+}
+
+.main {
+    font-size: 1.5em;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 50%;
+    width: 60%;
+    text-align: justify;
+}
+
+.main-box {
+    margin: 25px;
+    padding-left: 20px;
+}
+
+.sidebar {
+    background: linear-gradient(to right, rgb(230, 158, 116), rgba(230, 158, 116, 0.5));
+    margin: 5px;
+    border: 3px solid rgb(187, 82, 82);
+    box-shadow: 2px 0 9px rgb(187, 82, 82);
+}
+
+.post {
+    border-bottom: 3px solid rgb(187, 82, 82);
+    box-shadow: 0 5px 0 rgb(187, 82, 82);
+}
+
+.post>a {
+    text-decoration: none;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.post>h2 a {
+    margin: 5px;
+}
+
+.post-text {
+    margin: 3px;
+}
+
+.title1 {
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(187, 82, 82, 0.5)
+}
+
+.titletext {
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(187, 82, 82, 0.5);
+}
+
+.post>a {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+
+/* input {
+    align-self: justify;
+    width: 200px;
+} */
