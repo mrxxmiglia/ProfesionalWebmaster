@@ -1,5 +1,5 @@
 .main-header {
-    background-image: url(/Img/backimg.jpg);
+    background-image: url(Img/backimg.jpg);
     background-size: 70%;
     padding-bottom: 10px;
 }
@@ -122,14 +122,30 @@ ol {
     text-decoration: none;
 }
 
-.form-name {
+label {
+    width: 98px;
+    background: red;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* input {
+    align-content: justify;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+} */
+
+
+/* .form-name {
     font-size: 1.5em;
     margin: 3px;
     padding: 3px;
     /* width: auto; */
-}
 
-.form-tel {
+
+/* .form-tel {
     font-size: 1.5em;
     margin: 3px;
     padding: 3px;
@@ -145,7 +161,7 @@ ol {
     font-size: 1.5em;
     margin: 3px;
     padding: 3px;
-}
+} */
 
 .buttom {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

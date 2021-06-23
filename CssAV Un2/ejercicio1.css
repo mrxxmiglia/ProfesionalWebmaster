@@ -1,0 +1,41 @@
+.contenedor {
+    width: 360px;
+    height: 360px;
+    background-color: white;
+    border: black 2px solid;
+    margin-left: 30%;
+}
+
+.box {
+    float: right;
+}
+
+#rojo {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#azul {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verde {
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
