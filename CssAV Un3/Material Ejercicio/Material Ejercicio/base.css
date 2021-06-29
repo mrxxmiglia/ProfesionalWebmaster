@@ -1,0 +1,83 @@
+     @charset "utf-8";
+ /* CSS Document */
+ 
+ body {
+     color: #000;
+     background: #332F29;
+     font-size: 100%;
+ }
+ 
+ #contenedor {
+     width: 800px;
+     background: #8FA68E;
+     margin-right: auto;
+     margin-left: auto;
+     overflow: hidden;
+ }
+ 
+ nav {
+     background: #CC3910;
+     float: left;
+     width: 160px;
+ }
+ 
+ ul {
+     list-style-type: none;
+ }
+ 
+ a {
+     color: #F1F2C0;
+     text-decoration: none;
+ }
+ 
+ section {
+     background: #F1F2C0;
+     float: left;
+     margin: 0 0 0 25px;
+     width: 400px;
+ }
+ 
+ aside {
+     background: #CCC59E;
+     float: right;
+     width: 190px;
+ }
+ 
+ @media screen and (min-width: 320px) and (max-width: 800px) {
+     body {
+         padding: 0;
+         margin: 0;
+     }
+     #contenedor {
+         background: #8FA68E;
+         width: 100%;
+     }
+     nav {
+         background: #FC6;
+         float: none;
+         width: 100%;
+     }
+     nav ul {
+         margin: 0;
+     }
+     a {
+         padding: 0.5em;
+         display: block;
+         color: #000;
+     }
+     section {
+         border-top: solid black 0.1em;
+         float: none;
+         padding: 0.9em;
+         width: 95%;
+         margin-left: 0;
+         text-align: justify;
+     }
+     aside {
+         border-top: solid black 0.1em;
+         float: none;
+         padding: 0.8em;
+         width: 95%;
+         margin-left: 0;
+         text-align: justify;
+     }
