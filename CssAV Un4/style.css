@@ -1,0 +1,29 @@
+section {
+    margin: 10px;
+}
+
+h1 {
+    color: red;
+    text-decoration: underline;
+    margin: 10px 30pxs;
+    font-family: Verdana, Gene0va, Tahoma, sans-serif;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.row {
+    background-color: rgb(196, 64, 64);
+    border: black solid 2px;
+}
+
+#sprow {
+    border-right: black solid 1px;
+}
+
+.col {
+    padding-bottom: 20px;
+}
+
+form {
+    margin: 15px 50px;
+}
