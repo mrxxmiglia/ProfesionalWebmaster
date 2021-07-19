@@ -1,0 +1,160 @@
+     * {
+         box-sizing: border-box;
+     }
+     
+     header {
+         background-color: rgb(143, 215, 236);
+         background-image: url(/MaquetadoI/Bancoweb/img/bankwalpapper4.jpg);
+         padding: 1em;
+         background-size: cover;
+         font-family: 'Dancing Script', cursive;
+         font-family: 'Festive', cursive;
+     }
+     
+     .head-container {
+         width: 30%;
+         color: rgb(236, 222, 214);
+         background-color: rgba(187, 112, 82, 0.5);
+         font-size: 2em;
+         /* font-style: italic; */
+         text-align: center;
+         border-radius: 40%;
+         justify-content: center;
+         margin: auto;
+         padding: 0.5em;
+     }
+     /* barra de navegación */
+     
+     nav {
+         background-color: rgba(233, 72, 32, 0.5);
+         margin-bottom: 2em;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     
+     nav ul {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+     }
+     
+     nav ul li {
+         display: inline-block;
+         width: 15%;
+         margin: 2px;
+     }
+     
+     nav ul li a {
+         color: white;
+         text-align: center;
+         display: block;
+         padding: 0.2em 0.4em;
+     }
+     
+     nav a:hover {
+         background-color: rgb(187, 82, 82);
+     }
+     
+     body {
+         background-color: rgba(236, 203, 175, 0.5);
+     }
+     /* texto y formato del cuerpo */
+     
+     .main {
+         font-size: 1.5em;
+         display: block;
+         /* grid-template-columns: 50% 50%; */
+         /* grid-gap: 50%; */
+         width: 100%;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     .main h1 {
+         text-align: center;
+         text-decoration: underline;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: rgb(158, 49, 6);
+     }
+     
+     .main h2 {
+         text-align: center;
+     }
+     
+     .main-box {
+         margin: 25px;
+         padding-left: 20px;
+     }
+     
+     .main-box h2 {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: rgb(187, 82, 82);
+         border-bottom: 3px solid rgb (255, 255, 255);
+         text-decoration: underline;
+     }
+     
+     #bancocen {
+         float: left;
+         width: 200px;
+         height: 150px;
+         margin: 15px;
+         transition: 0.5s all;
+         padding-bottom: 10px;
+         /* justify-content: center; */
+     }
+     
+     .box {
+         margin: 2px;
+         padding: 2px;
+         text-align: justify;
+     }
+     
+     #bancocen:hover {
+         width: 300px;
+         height: 200px;
+     }
+     /* footer */
+     
+     .main-footer {
+         background-color: rgb(158, 49, 6);
+         padding: .25em 0;
+     }
+     
+     .main-footer-container {
+         display: inline-flex flex;
+         /* flex-grow: 1em; */
+         text-align: center;
+         background-color: rgb(187, 82, 82);
+         padding: 2px;
+     }
+     
+     .bank-name {
+         font-size: 1.5em;
+         color: white;
+     }
+     
+     .footer-nav {
+         justify-content: center;
+         list-style: none;
+     }
+     /* HTML CONTACTS */
+     
+     .main-contact {
+         text-align: center;
+         text-decoration: none;
+     }
+     
+     .buttom {
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-size: 1.15em;
+         width: 100px;
+         height: 50px;
+         color: white;
+         background-color: rgb(223, 133, 59);
+         padding: 2px;
+         margin-top: 3px;
+         margin-bottom: 50px;
+     }
+     
+     .buttom:hover {
+         background-color: rgb(199, 158, 124);
+     }
