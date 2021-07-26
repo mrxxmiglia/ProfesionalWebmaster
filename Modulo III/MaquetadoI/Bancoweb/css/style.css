@@ -1,6 +1,6 @@
-     * {
+     /* * {
          box-sizing: border-box;
-     }
+     } */
      
      header {
          background-color: rgb(143, 215, 236);
@@ -27,7 +27,7 @@
      
      nav {
          background-color: rgba(233, 72, 32, 0.5);
-         margin-bottom: 2em;
+         /* margin-bottom: 2em; */
          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      }
      
@@ -61,19 +61,19 @@
      
      .main {
          font-size: 1.5em;
-         display: block;
-         /* grid-template-columns: 50% 50%; */
-         /* grid-gap: 50%; */
+         display: flex;
          width: 100%;
          justify-content: center;
          align-items: center;
+         background-color: white;
      }
      
      .main h1 {
          text-align: center;
          text-decoration: underline;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
          color: rgb(158, 49, 6);
+         font-style: oblique;
      }
      
      .main h2 {
@@ -83,6 +83,7 @@
      .main-box {
          margin: 25px;
          padding-left: 20px;
+         overflow: hidden;
      }
      
      .main-box h2 {
@@ -100,12 +101,31 @@
          transition: 0.5s all;
          padding-bottom: 10px;
          /* justify-content: center; */
+         border-radius: 40%;
+         border-color: rgb(187, 82, 82);
      }
      
      .box {
-         margin: 2px;
-         padding: 2px;
+         width: 45%;
          text-align: justify;
+         padding: 1em;
+     }
+     
+     .box.right {
+         float: right;
+     }
+     
+     .box.right p {
+         font-style: italic;
+     }
+     
+     .box.left p {
+         font-style: italic;
+     }
+     
+     .box.left {
+         border-right: 2px solid rgb(187, 82, 82);
+         float: left;
      }
      
      #bancocen:hover {
@@ -120,7 +140,7 @@
      }
      
      .main-footer-container {
-         display: inline-flex flex;
+         display: block;
          /* flex-grow: 1em; */
          text-align: center;
          background-color: rgb(187, 82, 82);
@@ -128,19 +148,223 @@
      }
      
      .bank-name {
-         font-size: 1.5em;
+         font-size: 2.5em;
+         font-weight: 300;
          color: white;
+         /* font-family: 'Dancing Script', cursive;
+         font-family: 'Festive', cursive; */
      }
      
      .footer-nav {
          justify-content: center;
          list-style: none;
      }
-     /* HTML CONTACTS */
+     
+     footer a {
+         font-size: 2em;
+     }
+     /* HTML WWB NOSOTROS */
+     
+     .uscontainer {
+         width: 100%;
+         margin-bottom: 5em;
+     }
+     
+     .Historia {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 1em;
+     }
+     
+     .Historia h1 {
+         font-style: italic;
+     }
+     
+     .usboxes {
+         text-align: center;
+         overflow: hidden;
+     }
+     
+     .boxs {
+         display: inline-block;
+         width: 16%;
+         background-color: rgba(187, 82, 82, 0.5);
+         justify-content: center;
+         text-align: center;
+         padding: 5px;
+         margin: 8px;
+         border: 1px solid rgb(33, 116, 47);
+         box-sizing: border-box;
+     }
+     
+     .boxs img {
+         width: 50%;
+         height: 10%;
+         /* padding: 1em; */
+         border: 2% solid rgb(187, 82, 82);
+         border-radius: 15%;
+         justify-content: center;
+     }
+     
+     .boxs h2 {
+         text-decoration: underline;
+     }
+     
+     .boxs h3 {
+         font-style: italic;
+     }
+     
+     .boxs p {
+         text-align: justify;
+         font-weight: normal;
+         font-style: italic;
+     }
+     /* HTML WWB SERVICIOS */
+     
+     .serviciosbox {
+         text-align: center;
+     }
+     
+     .serviciosbox h1 {
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-style: italic;
+         text-decoration: underline;
+         font-weight: 600;
+     }
+     
+     .servicios-minibox {
+         /* width: 70%; */
+         background-color: rgb(158, 49, 6);
+         margin-left: 4em;
+     }
+     
+     .wwbservicios {
+         width: 70%;
+         border: 1px solid gray;
+         border-radius: 0.7em;
+         overflow: hidden;
+         margin: 1em 0 3em 12em;
+         padding: 1em;
+     }
+     
+     .wwbservicios img {
+         width: 25%;
+         border-radius: 0.8em;
+     }
+     
+     .wwbservicios .info {
+         width: 73%;
+     }
+     
+     .wwbservicios .info h2 {
+         color: rgb(158, 49, 6);
+         font-size: 1.2em;
+         font-style: italic;
+         font-weight: 400;
+         margin: 0 0 1em;
+         border-bottom: 1px solid rgb(158, 49, 6);
+         padding-bottom: 0.5em;
+     }
+     
+     .wwbservicios:nth-child(even) img {
+         float: right;
+         margin: 0 0 0 1em;
+     }
+     
+     .wwbservicios:nth-child(even) .info {
+         float: left;
+     }
+     
+     .wwbservicios:nth-child(odd) img {
+         float: left;
+         margin: 0 1em 0 0;
+     }
+     
+     .wwbservicios:nth-child(odd) .info {
+         float: right;
+     }
+     /* HTML WWB CONTACTS */
      
      .main-contact {
+         width: 100%;
+         display: inline-flex;
+         /* background-color: turquoise; */
+         font-size: 1em;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     
+     .columna {
+         width: 50%;
+         padding: 1.6em;
+         margin-bottom: 1em;
+         /* background-color: tomato; */
+     }
+     
+     .columna.left {
+         border-right: 2px solid rgb(158, 49, 6);
+         padding: 2em;
+     }
+     
+     .columna.left h2 {
+         color: rgb(158, 49, 6);
          text-align: center;
-         text-decoration: none;
+         text-decoration: underline;
+     }
+     
+     .columna.right {
+         font-size: 1em;
+         float: right;
+         padding: 2em;
+         /* background-color: tomato; */
+     }
+     
+     .columna.right h2 {
+         color: rgb(158, 49, 6);
+         text-align: center;
+         text-decoration: underline;
+     }
+     
+     .columna.right ul li {
+         font-size: 0.9em;
+         list-style: none;
+     }
+     
+     .forms label {
+         vertical-align: top;
+         width: 20%;
+         display: inline-block;
+     }
+     
+     .forms input,
+     .forms textarea {
+         background-color: #ddd;
+         border-radius: 5px;
+         border: 1px solid #999;
+         padding: 0.4em 0 0.6em;
+         font-size: 0.8em;
+         width: 70%;
+     }
+     
+     .forms input[type="submit"] {
+         background-color: rgb(158, 49, 6);
+         box-shadow: 0 0 10px rgba(233, 72, 32, 0.4);
+         color: white;
+         font-size: 1em;
+         width: auto;
+         cursor: pointer;
+     }
+     
+     .forms textarea {
+         height: 10em;
+         resize: none;
+     }
+     
+     .buttom-container {
+         /* background-color: wheat; */
+         justify-content: center;
+         align-items: center;
+         padding: 0;
+         margin: 0;
+         text-align: center;
      }
      
      .buttom {
@@ -150,9 +374,6 @@
          height: 50px;
          color: white;
          background-color: rgb(223, 133, 59);
-         padding: 2px;
-         margin-top: 3px;
-         margin-bottom: 50px;
      }
      
      .buttom:hover {
