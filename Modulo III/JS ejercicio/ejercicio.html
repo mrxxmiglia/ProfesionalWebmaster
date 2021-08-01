@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1></h1>
+
+
+    <script>
+        // tarea 1 
+        var distancia = 5000
+
+        if (0 <= distancia && distancia <= 1000) {
+            console.log("Ir a pie");
+        } else if (1000 < distancia && distancia <= 10000) {
+            console.log("Ir en bicicleta");
+        } else if (10000 < distancia && distancia <= 30000) {
+            console.log("Ir en colectivo");
+        } else if (30000 < distancia && distancia <= 100000) {
+            console.log("Ir en auto");
+        } else {
+            console.log("Ir en avión");
+        }
+
+
+
+        // document.write(prompt("pone una distancia: "))
+        // tarea 2
+        var tarea2 = [2, 6, 5, 1, 3, 10, 0];
+        Math.max(...tarea2);
+        document.write(Math.max(...tarea2));
+    </script>
+
+</body>
+
+</html>
