@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: rgba(224, 194, 194, 0.5);
+            font-size: 1.5em;
+        }
+        
+        textarea {
+            align-content: center;
+        }
+    </style>
+    <h1>CONTADOR DE CARACTERES</h1>
+    <textarea id="text" rows="20" cols="50"></textarea>
+    <p id="result"></p>
+
+
+
+    <script>
+        document.getElementById("result").innerHTML = "Caracteres = 0";
+        let text = document.getElementById("text");
+        text.oninput = function() {
+            let cantidad = text.value.length;
+            document.getElementById("result").innerHTML = "Caracteres = " + cantidad;
+        }
+    </script>
+
+</body>
+
+</html>

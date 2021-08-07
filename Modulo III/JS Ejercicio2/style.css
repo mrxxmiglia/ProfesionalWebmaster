@@ -1,0 +1,32 @@
+div {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#first {
+    background-color: aqua;
+}
+
+#second1 {
+    background-color: blue;
+}
+
+#third1 {
+    background-color: blueviolet;
+}
+
+
+/* .first.activo {
+    background-color: brown;
+} */
+
+
+/* .second.activo {
+    background-color: coral;
+}
+
+.third.activo {
+    background-color: darkblue;
+} */

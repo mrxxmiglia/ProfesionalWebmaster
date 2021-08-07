@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar color con Boton</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <h1>EJERCICIOS JS</h1>
+    <h2>PRIMER EJERCICIO SOLUCIÓN ALTERNATIVA</h2>
+
+    <div id="container" style="background-color: blueviolet;">
+        <button id="button">Cambia</button>
+
+    </div>
+
+    <div id="container1" style="background-color: chocolate;">
+
+        <button id="button1">Cambia</button>
+
+    </div>
+    <div id="container2">
+
+        <button id="button2">Cambia</button>
+
+    </div>
+    <script>
+        let color = ["black", "blue", "yellow", "red"];
+        let button = document.getElementById("button");
+
+        button.addEventListener("click", function() {
+
+            var randomColor = color[Math.floor(Math.random() * color.length)]
+
+            let container = document.getElementById('container');
+
+            container.style.background = randomColor;
+
+        })
+        let button1 = document.getElementById("button1");
+
+        button1.addEventListener("click", function() {
+
+            var randomColor1 = color[Math.floor(Math.random() * color.length)]
+
+            let container1 = document.getElementById('container1');
+
+            container1.style.background = randomColor1;
+
+        })
+        let button2 = document.getElementById("button2");
+
+        button2.addEventListener("click", function() {
+
+            var randomColor2 = color[Math.floor(Math.random() * color.length)]
+
+            let container2 = document.getElementById('container2');
+
+            container2.style.background = randomColor2;
+
+        })
+    </script>
+
+</body>
+
+</html>
