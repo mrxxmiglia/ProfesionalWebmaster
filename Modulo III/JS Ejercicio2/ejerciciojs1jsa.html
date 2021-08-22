@@ -25,17 +25,20 @@
     </div>
 
     <script>
-        function clickdiv() {
-            document.getElementById("first").style.background = "black";
-        }
+        var color = ['black', 'blue', 'yellow', 'brown', 'white'];
+        var randomColor = color[Math.max[(Math.random() * color.length)];
 
-        function clickdiv1() {
-            document.getElementById("second1").style.background = 'brown';
-        }
+                function clickdiv() {
+                    document.getElementById("first").style.background = randomColor;
+                }
 
-        function clickdiv2() {
-            document.getElementById("third1").style.background = 'yellow';
-        }
+                function clickdiv1() {
+                    document.getElementById("second1").style.background = 'brown';
+                }
+
+                function clickdiv2() {
+                    document.getElementById("third1").style.background = 'yellow';
+                }
     </script>
 
 </body>
