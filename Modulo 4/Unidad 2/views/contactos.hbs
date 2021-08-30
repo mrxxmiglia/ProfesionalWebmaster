@@ -1,14 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>WWB Contactos</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur labore molestias dicta ipsum cumque veniam quis modi non, quasi qui a recusandae iusto obcaecati quidem nisi, eaque exercitationem perspiciatis deleniti.</p>
-    
-</body>
-</html>
+<section>
+        <div class="main-contact">
+            <div class="columna left">
+                <h2>Contacto</h2>
+                <form action= "/contactos" method="POST" class="forms">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+
+                    <div>
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+
+                    <div>
+                        <label for="email">Email  </label>
+                        <input class="inmail" type="email" name="email">
+                    </div>
+                    <div>
+                        <label for="pregunta">Pregunta</label>
+                        <textarea name="pregunta" id="" cols="27" rows="10"></textarea>
+                        <p></p>
+                    </div>
+
+                    <div class="buttom-container">
+                        <button class="buttom">Enviar</button>
+                    </div>
+                </form>
+                {{message}}
+            </div>
+            <div class="columna right">
+                <h2>Otras vías de contacto</h2>
+                <p>También se pueden comunicar con nosotros a través de:</p>
+                <ul>
+                    <li>Teléfono: 4578-7894</li>
+                    <li>Email: contacto@wwb.com</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Skype</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
